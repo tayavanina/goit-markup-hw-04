@@ -1,0 +1,56 @@
+.team-section {
+  background-color: #f4f4fd;
+  padding: 120px 0; /* ← на секцію */
+}
+
+.team-container h2 {
+  margin-bottom: 72px;
+}
+
+.team-container ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-team {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.list-team img {
+  display: block; /* ← прибирає inline-прогалину */
+}
+
+.team-info {
+  padding: 32px 16px; /* ← рівномірний padding */
+}
+
+.team-section .list-team h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px; /* ← відступ між h3 і p */
+}
+
+.team-section .list-team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.team-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}

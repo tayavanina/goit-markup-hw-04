@@ -1,0 +1,35 @@
+.features-section {
+  padding: 120px 0;
+}
+
+.features-container {
+  /* прибрано padding */
+}
+
+.features-container ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.text-features {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.text-features h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.text-features p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
