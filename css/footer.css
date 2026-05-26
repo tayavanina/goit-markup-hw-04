@@ -73,6 +73,25 @@
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link-footer:hover {
+.icon-link-footer:hover,
+.icon-link-footer:focus {
   background: #31d0aa;
+}
+
+.container-icons-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.title-social-media {
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
 }
