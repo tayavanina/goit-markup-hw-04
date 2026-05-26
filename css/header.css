@@ -78,6 +78,11 @@
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
 }
+
+.navigation.active {
+  color: #404bbf;
+}
+
 .navigation.active::after {
   content: '';
   position: absolute;
